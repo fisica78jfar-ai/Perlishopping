@@ -12,7 +12,7 @@ body {
   height: 100%;
   object-fit: cover; /* maintain aspect ratio, cover entire screen */
   z-index: -1; /* put behind content */
-  opacity: 0.45;  
+  opacity: 0.55;  
 }
 
 header{
@@ -27,17 +27,20 @@ header{
   padding: 15px;
   white-space: nowrap;
   max-width: 100vw;
-  scrollbar-width: none; /* Firefox */
 }
 
 .vs li, .sams li {
   flex: 0 0 auto;
-  background: rgba(255, 255, 255, 0.85);
+  background: rgba(255, 255, 255, 0.80);
   border-radius: 12px;
   padding: 10px;
   text-align: center;
   box-shadow: 0 2px 5px rgba(0,0,0,0.2);
   width: 150px;
+
+    /* New flex layout for each card */
+  display: flex;
+  flex-direction: column;
 }
 
 .vs li img, .sams li img {
@@ -47,7 +50,9 @@ header{
 
 .vs li h3, .sams li h3 {
   margin: 10px 0 5px;
-  font-size: 1rem;
+  font-size: 1.2rem;
+  white-space: normal;   /* allow wrapping */
+  word-wrap: break-word; /* break long words if needed */
 }
 
 .vs li p, .sams li p {
@@ -57,11 +62,14 @@ header{
 
 .vs li button, .sams li button {
   padding: 8px 12px;
+  max-width: fit-content;
+  align-self: center;
   border: none;
   background: #ff4081;
   color: white;
   border-radius: 6px;
   cursor: pointer;
+    margin-top: auto;   /* pushes button to bottom of the card */
 }
 .vs li button:hover, .sams li button:hover {
   background: #3336e7;

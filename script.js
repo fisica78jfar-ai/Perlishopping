@@ -25,6 +25,9 @@ document.addEventListener("DOMContentLoaded", () => {
     `;
 
     container.appendChild(li);
+
+
+    
   });
 });
 
@@ -53,5 +56,32 @@ document.addEventListener("DOMContentLoaded", () => {
     `;
 
     container.appendChild(li);
+  });
+});
+
+
+//click to enlarge, it creates a div with its properties, then it creates an image with the properties fro mthe original one
+// run after products are loaded  ,.. this is event delegation
+document.querySelectorAll(".vs, .sams").forEach(list => {
+  list.addEventListener("click", (e) => {
+    if (e.target.tagName === "IMG") {
+      const img = e.target;
+      const overlay = document.createElement("div");
+      overlay.style = `
+        position:fixed; top:0; left:0; width:100%; height:100%;
+        background:rgba(0,0,0,0.8); display:flex;
+        align-items:center; justify-content:center; z-index:9999;
+      `;
+      const largeImg = document.createElement("img");
+      largeImg.src = img.src;
+      largeImg.style.maxWidth = "90%";
+      largeImg.style.maxHeight = "90%";
+      largeImg.style.borderRadius = "12px";
+
+      overlay.appendChild(largeImg);
+      document.body.appendChild(overlay);
+
+      overlay.addEventListener("click", () => overlay.remove());
+    }
   });
 });
