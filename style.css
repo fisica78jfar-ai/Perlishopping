@@ -17,7 +17,20 @@ body {
 
 header{
     text-align: center;
+    font-size: larger;
 }
+
+main{
+  margin-left: 20px;
+  overflow-y: scroll;           /* scroll only inside main */
+}
+
+.henny-penny-regular {
+  font-family: "Henny Penny", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
 
 .vs, .sams {
   list-style: none;
@@ -41,6 +54,10 @@ header{
     /* New flex layout for each card */
   display: flex;
   flex-direction: column;
+}
+
+.vs li:hover, .sams li:hover {
+  background: rgb(255, 238, 0);
 }
 
 .vs li img, .sams li img {
@@ -73,4 +90,35 @@ header{
 }
 .vs li button:hover, .sams li button:hover {
   background: #3336e7;
+}
+
+/*for button at the bottom, send cart to whatsapp*/
+#sendCart {
+  padding: 8px 12px;
+  max-width: fit-content;
+  align-self: center;
+  border: none;
+  background: #069647;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: larger;
+}
+
+.fab {
+  animation: blink 2s infinite; /* animation call */
+}
+/* blinking effect */
+@keyframes blink {
+  0%, 50%, 100% {
+    opacity: 1;
+  }
+  25%, 75% {
+    opacity: 0;
+  }
+}
+
+
+footer{
+    margin-left: 20px;
 }
