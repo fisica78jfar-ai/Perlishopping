@@ -16,8 +16,8 @@ document.addEventListener("DOMContentLoaded", () => {
       selector: ".sams",
       products: [
         { name: "Folgers", price: 1, img: "img/folgers.png" },
-        { name: "Folgers Instantaneo", price: 1, img: "img/folgers_instantaneo.png" },
-        { name: "Melatonin 10 mg", price: 1, img: "img/melatonin_10.png" },
+        { name: "Folgers Instantaneo", price: 350, img: "img/folgers_instantaneo.png" },
+        { name: "Melatonin 10 mg", price: 460, img: "img/melatonin_10.png" },
         { name: "Melatonin 5 mg", price: 1, img: "img/melatonin_5.png" },
       ]
     },
@@ -53,7 +53,11 @@ document.addEventListener("DOMContentLoaded", () => {
     group.products.forEach(p => {
       const li = document.createElement("li");
       li.dataset.name = p.name;
-      li.dataset.price = p.price;
+        if (p.price === 1) {
+          p.price = "---";
+        } else {
+          li.dataset.price = p.price;
+        }
       li.innerHTML = `
         <img src="${p.img}" alt="${p.name}">
         <div class="info">
@@ -65,7 +69,7 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   });
 
-// Enlarge image on click
+  // Enlarge image on click
   // Image enlarge on click (move this INSIDE)
   document.querySelectorAll(".vs, .sams, .other").forEach(list => {
     list.addEventListener("click", (e) => {
