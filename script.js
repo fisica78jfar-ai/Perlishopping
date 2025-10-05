@@ -1,23 +1,15 @@
-
-      const cart = []; // will store items added to cart
-
-// This will add dynamically the products to the respective class, adding a "name" and "price" data, to later use it in the button
 document.addEventListener("DOMContentLoaded", () => {
-
-
-
-
-    // All product data, grouped by container selector
+  // Product data
   const productGroups = [
     {
       selector: ".vs",
       products: [
-        { name: "Strawberry and Champagne", price: 280, img: "img/strawberry and champagne.png" },
-        { name: "Vanilla Lace", price: 280, img: "img/vanilla lace.png" },
-        { name: "Coconut Passion", price: 280, img: "img/coconut passion.png" },
-        { name: "Velvet Petals", price: 280, img: "img/velvet petals.png" },
-        { name: "Bare Vanilla", price: 280, img: "img/bare vanilla.png" },
-        { name: "Midnight Bloom", price: 280, img: "img/midnight bloom.png" },
+        { name: "Strawberry and Champagne", price: 280, img: "img/vs strawberry and champagne.png" },
+        { name: "Vanilla Lace", price: 280, img: "img/vs vanilla lace.png" },
+        { name: "Coconut Passion", price: 280, img: "img/vs coconut passion.png" },
+        { name: "Velvet Petals", price: 280, img: "img/vs velvet petals.png" },
+        { name: "Bare Vanilla", price: 280, img: "img/vs bare vanilla.png" },
+        { name: "Midnight Bloom", price: 280, img: "img/vs midnight bloom.png" },
       ]
     },
     {
@@ -28,101 +20,72 @@ document.addEventListener("DOMContentLoaded", () => {
         { name: "Melatonin 10 mg", price: 1, img: "img/melatonin_10.png" },
         { name: "Melatonin 5 mg", price: 1, img: "img/melatonin_5.png" },
       ]
+    },
+    {
+      selector: ".other",
+      products: [
+        { name: "Playeras - Aeropostale", price: 1, img: "img/other aero.png" },
+        { name: "Toallas", price: 1, img: "img/other towels.png" },
+        { name: "Bolsas, mochilas, etc", price: 1, img: "img/other bolsas.png" },
+        { name: "Colchas, sabanas, etc", price: 1, img: "img/other blankets.png" },
+        { name: "Boxers, playeras interiores,etc", price: 1, img: "img/other boxers.png" },
+        { name: "Ropa de niños", price: 1, img: "img/other kids.png" },
+        { name: "Pantalones, Jeans, etc", price: 1, img: "img/other pants jeans.png" },
+        { name: "Perfumes", price: 1, img: "img/other perfumes.png" },
+        { name: "Zapatos (hombre)", price: 1, img: "img/other shoes men.png" },
+        { name: "Zapatos (mujeres)", price: 1, img: "img/other shoes women.png" },
+        { name: "Calcetines, calcetas, etc", price: 1, img: "img/other socks.png" },
+        { name: "Ropa de invierno", price: 1, img: "img/other sweaters.png" },
+        { name: "Tennis", price: 1, img: "img/other tennis.png" },
+        { name: "Cacahuates - Kars", price: 1, img: "img/other kars.png" },
+        { name: "Alcohol verde", price: 1, img: "img/other alcohol.png" },
+        { name: "Velas - Bath and Body Works", price: 1, img: "img/other candle.png" },
+        { name: "Gel - Bath and Body Works", price: 1, img: "img/other gel.png" },
+        { name: "Jabon de manos  - Bath and Body Works", price: 1, img: "img/other jabon.png" },
+        { name: "Juegos de mesa", price: 1, img: "img/other games.png" },
+      ]
     }
   ];
 
-  // Function to create product cards dynamically
+  // Create product cards
   productGroups.forEach(group => {
     const container = document.querySelector(group.selector);
     group.products.forEach(p => {
       const li = document.createElement("li");
       li.dataset.name = p.name;
       li.dataset.price = p.price;
-
       li.innerHTML = `
         <img src="${p.img}" alt="${p.name}">
-        <h3>${p.name}</h3>
-        <p>$${p.price}</p>
-        <button>Add to Cart</button>
+        <div class="info">
+          <h3>${p.name}</h3>
+          <p>$${p.price}</p>
+        </div>
       `;
-
       container.appendChild(li);
     });
   });
 
-});
-
-
-//click to enlarge, it creates a div with its properties, then it creates an image with the properties from the original one
-// run after products are loaded  ,.. this is event delegation
-document.querySelectorAll(".vs, .sams").forEach(list => {
-  list.addEventListener("click", (e) => {
-
-     // 1️⃣ Enlarge image
-    if (e.target.tagName === "IMG") {
-      const img = e.target;
-      const overlay = document.createElement("div");
-      overlay.style = `
-        position:fixed; top:0; left:0; width:100%; height:100%;
-        background:rgba(0,0,0,0.8); display:flex;
-        align-items:center; justify-content:center; z-index:9999;
-      `;
-      const largeImg = document.createElement("img");
-      largeImg.src = img.src;
-      largeImg.style.maxWidth = "90%";
-      largeImg.style.maxHeight = "90%";
-      largeImg.style.borderRadius = "12px";
-
-      overlay.appendChild(largeImg);
-      document.body.appendChild(overlay);
-
-      overlay.addEventListener("click", () => overlay.remove());
-    }
-
-
-    // Add click listener to buttons using SAME PRIOR event delegation
-    // 2️⃣ Add to cart
-    if (e.target.tagName === "BUTTON") {
-      const li = e.target.closest("li"); // get the parent <li> of the button
-      const item = {
-        name: li.dataset.name,
-        price: parseFloat(li.dataset.price),
-        quantity: 1
-      };
-
-      // check if item already in cart
-      const existing = cart.find(i => i.name === item.name);
-      if (existing) {
-        existing.quantity += 1; // increment quantity
-      } else {
-        cart.push(item);
+// Enlarge image on click
+  // Image enlarge on click (move this INSIDE)
+  document.querySelectorAll(".vs, .sams, .other").forEach(list => {
+    list.addEventListener("click", (e) => {
+      if (e.target.tagName === "IMG") {
+        const img = e.target;
+        const overlay = document.createElement("div");
+        overlay.style = `
+          position:fixed; top:0; left:0; width:100%; height:100%;
+          background:rgba(0,0,0,0.8); display:flex;
+          align-items:center; justify-content:center; z-index:9999;
+        `;
+        const largeImg = document.createElement("img");
+        largeImg.src = img.src;
+        largeImg.style.maxWidth = "90%";
+        largeImg.style.maxHeight = "90%";
+        largeImg.style.borderRadius = "12px";
+        overlay.appendChild(largeImg);
+        document.body.appendChild(overlay);
+        overlay.addEventListener("click", () => overlay.remove());
       }
-
-      console.log("Cart:", cart); // for now, log the cart
-      alert(`${item.name} added to cart!`);
-    }
-
-
+    });
   });
-});
-
-
-//Boton para whatsapp
-document.getElementById("sendCart").addEventListener("click", () => {
-  if (cart.length === 0) {
-    alert("Your cart is empty!");
-    return;
-  }
-
-  // Create the message
-  const message = cart
-    .map(item => `${item.name} x ${item.quantity} - $${item.price}`)
-    .join("\n");
-
-  // WhatsApp link
-  const phoneNumber = "+528333180052"; // replace with your number
-  const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
-
-  // Open WhatsApp
-  window.open(url, "_blank");
 });

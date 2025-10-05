@@ -2,51 +2,60 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Perlishopping</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="script.js" defer></script>
-    
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Eater&family=Henny+Penny&family=Just+Me+Again+Down+Here&family=Raleway:ital,wght@0,100..900;1,100..900&family=Story+Script&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Perlishopping</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <!-- Google Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Eater&family=Henny+Penny&family=Just+Me+Again+Down+Here&family=Raleway:ital,wght@0,100..900;1,100..900&family=Story+Script&display=swap"
+    rel="stylesheet">
 </head>
 
 <body>
-    <header>
-        <h1 class="henny-penny-regular">Welcome to Perlishopping!</h1>
-    </header>
+  <header>
+    <h1 class="henny-penny-regular">Welcome to Perlishopping!</h1>
+  </header>
 
-    <!-- Background Video -->
-    <video autoplay muted loop id="bgVideo">
-        <source src="video.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-    </video>
+  <!-- Background Video -->
+  <video autoplay muted loop id="bgVideo">
+    <source src="video.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
 
+  <main>
+    <!-- Products -->
+    <section id="vs">
+      <h2>Lociones de Victoria's Secret</h2>
+      <ul class="vs"></ul>
+    </section>
 
+    <section id="sams">
+      <h2>Café, Melatonina</h2>
+      <ul class="sams"></ul>
+    </section>
 
-    <main>
-        
-        <section id="vs">
-            <h2>Lociones de Victoria's Secret</h2>
-            <ul class="vs">
-            </ul>
-        </section>
+    <section id="other">
+      <h2>Varios ... y muchos más</h2>
+      <ul class="other"></ul>
+    </section>
+  </main>
 
-        <section id="sams">
-            <h2>Cafe, Melatonina</h2>
-            <ul class="sams">
-            </ul>
-        </section>
-
-    <i class="fab fa-whatsapp" style="font-size:40px; color:green;"></i>
-    <button class="send" id="sendCart">Send Cart via WhatsApp</button>
-
-    </main>
-
-    <footer>
-        <h3>Contact information</h3>
-    </footer>
+<footer>
+  <h3>Contact information</h3>
+  <p>¿Te interesó algo o necesitas algo diferente? ¡Mándame un WhatsApp!</p>
+  <a
+    href="https://wa.me/+528333180052?text=Hola.%20Me%20gustar%C3%ADa%20pedir%20informaci%C3%B3n,%20o%20pedirte%20algo%20en%20espec%C3%ADfico."
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <i class="fab fa-whatsapp"></i>
+  </a>
+</footer>
 </body>
 
 </html>
