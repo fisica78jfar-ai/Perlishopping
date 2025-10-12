@@ -4,20 +4,20 @@ document.addEventListener("DOMContentLoaded", () => {
     {
       selector: ".vs",
       products: [
-        { name: "Strawberry and Champagne", price: 280, img: "img/vs strawberry and champagne.png" },
-        { name: "Vanilla Lace", price: 280, img: "img/vs vanilla lace.png" },
-        { name: "Coconut Passion", price: 280, img: "img/vs coconut passion.png" },
-        { name: "Velvet Petals", price: 280, img: "img/vs velvet petals.png" },
-        { name: "Bare Vanilla", price: 280, img: "img/vs bare vanilla.png" },
-        { name: "Midnight Bloom", price: 280, img: "img/vs midnight bloom.png" },
+        { name: "Strawberry and Champagne(1)", price: 280, img: "img/vs strawberry and champagne.png" },
+        { name: "Vanilla Lace(0)", price: 280, img: "img/vs vanilla lace.png" },
+        { name: "Coconut Passion(2)", price: 280, img: "img/vs coconut passion.png" },
+        { name: "Velvet Petals(2)", price: 280, img: "img/vs velvet petals.png" },
+        { name: "Bare Vanilla(0)", price: 280, img: "img/vs bare vanilla.png" },
+        { name: "Midnight Bloom(1)", price: 280, img: "img/vs midnight bloom.png" },
       ]
     },
     {
       selector: ".sams",
       products: [
         { name: "Folgers", price: 1, img: "img/folgers.png" },
-        { name: "Folgers Instantaneo", price: 350, img: "img/folgers_instantaneo.png" },
-        { name: "Melatonin 10 mg", price: 460, img: "img/melatonin_10.png" },
+        { name: "Folgers Instantaneo(1)", price: 350, img: "img/folgers_instantaneo.png" },
+        { name: "Melatonin 10 mg(2)", price: 460, img: "img/melatonin_10.png" },
         { name: "Melatonin 5 mg", price: 1, img: "img/melatonin_5.png" },
       ]
     },
