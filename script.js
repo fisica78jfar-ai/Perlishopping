@@ -10,6 +10,7 @@ document.addEventListener("DOMContentLoaded", () => {
         { name: "Velvet Petals(2)", price: 280, img: "img/vs velvet petals.png" },
         { name: "Bare Vanilla(0)", price: 280, img: "img/vs bare vanilla.png" },
         { name: "Midnight Bloom(1)", price: 280, img: "img/vs midnight bloom.png" },
+        { name: "Let's go girls(1)", price: 280, img: "img/vs let's go girls.png" },
       ]
     },
     {
