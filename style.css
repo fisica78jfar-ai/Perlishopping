@@ -45,7 +45,7 @@ h2 {
 
 /* Product lists (merged selectors) */
 /* Product lists (stable, scrollable, no shifting) */
-.vs, .sams, .other {
+.vs, .sams, .other, .disponible {
   list-style: none;
   display: inline-flex;
   gap: 20px;
@@ -58,7 +58,7 @@ h2 {
   scroll-snap-type: x proximity; /* optional: snap effect for better UX */
 }
 
-.vs li, .sams li, .other li {
+.vs li, .sams li, .other li, .disponible li {
   flex: 0 0 auto;
   background: rgba(255, 255, 255, 0.8);
   border-radius: 12px;
@@ -72,28 +72,28 @@ h2 {
   height: 480px;
 }
 
-.vs li:hover, .sams li:hover, .other li:hover {
+.vs li:hover, .sams li:hover, .other li:hover, .disponible li:hover {
   background: rgb(255, 238, 0);
 }
 
-.vs li img, .sams li img, .other li img {
+.vs li img, .sams li img, .other li img, .disponible li img {
   width: 100%;
   border-radius: 8px;
 }
 
-.vs li h3, .sams li h3, .other li h3 {
+.vs li h3, .sams li h3, .other li h3, .disponible li h3 {
   margin: 10px 0 5px;
   font-size: 1.2rem;
   white-space: normal;
   word-wrap: break-word;
 }
 
-.vs li p, .sams li p, .other li p {
+.vs li p, .sams li p, .other li p, .disponible li p {
   margin: 5px 0;
   font-weight: bold;
 }
 
-.vs li .info, .sams li .info, .other li .info {
+.vs li .info, .sams li .info, .other li .info, .disponible li .info {
   margin-top: auto;
 }
 
