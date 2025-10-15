@@ -79,7 +79,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   // Enlarge image on click
   // Image enlarge on click (move this INSIDE)
-  document.querySelectorAll(".vs, .sams, .other").forEach(list => {
+  document.querySelectorAll(".vs, .sams, .other, .disponible").forEach(list => {
     list.addEventListener("click", (e) => {
       if (e.target.tagName === "IMG") {
         const img = e.target;
