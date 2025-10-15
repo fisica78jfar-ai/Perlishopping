@@ -26,6 +26,8 @@ document.addEventListener("DOMContentLoaded", () => {
       selector: ".disponible",
       products: [
         { name: "Alcohol verde(4)", price: 80, img: "img/other alcohol.png" },
+        { name: "Cuadernos 80 hojas(10)", price: 30, img: "img/other notebook.png" },
+        { name: "Desodorante Crumbl(1)", price: 280, img: "img/other dove crumb.png" },
       ]
     },
     {
