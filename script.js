@@ -23,6 +23,12 @@ document.addEventListener("DOMContentLoaded", () => {
       ]
     },
     {
+      selector: ".disponible",
+      products: [
+        { name: "Alcohol verde(4)", price: 80, img: "img/other alcohol.png" },
+      ]
+    },
+    {
       selector: ".other",
       products: [
         { name: "Playeras - Aeropostale", price: 1, img: "img/other aero.png" },
@@ -39,7 +45,6 @@ document.addEventListener("DOMContentLoaded", () => {
         { name: "Ropa de invierno", price: 1, img: "img/other sweaters.png" },
         { name: "Tennis", price: 1, img: "img/other tennis.png" },
         { name: "Cacahuates - Kars", price: 1, img: "img/other kars.png" },
-        { name: "Alcohol verde", price: 1, img: "img/other alcohol.png" },
         { name: "Velas - Bath and Body Works", price: 1, img: "img/other candle.png" },
         { name: "Gel - Bath and Body Works", price: 1, img: "img/other gel.png" },
         { name: "Jabon de manos  - Bath and Body Works", price: 1, img: "img/other jabon.png" },
