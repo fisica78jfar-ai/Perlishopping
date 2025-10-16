@@ -11,6 +11,9 @@ document.addEventListener("DOMContentLoaded", () => {
         { name: "Bare Vanilla(0)", price: 280, img: "img/vs bare vanilla.png" },
         { name: "Midnight Bloom(1)", price: 280, img: "img/vs midnight bloom.png" },
         { name: "Let's go girls(1)", price: 280, img: "img/vs let's go girls.png" },
+        { name: "Marshmallow Dream(0)", price: 280, img: "img/vs marshmallow.png" },
+        { name: "Cherry Bliss(1)", price: 280, img: "img/vs cherry.png" },
+        { name: "Vanilla Fantasy(1)", price: 280, img: "img/vs vanilla fantasy.png" },
       ]
     },
     {
