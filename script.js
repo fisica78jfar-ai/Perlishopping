@@ -5,13 +5,10 @@ document.addEventListener("DOMContentLoaded", () => {
       selector: ".vs",
       products: [
         { name: "Strawberry and Champagne(1)", price: 280, img: "img/vs strawberry and champagne.png" },
-        { name: "Vanilla Lace(0)", price: 280, img: "img/vs vanilla lace.png" },
         { name: "Coconut Passion(2)", price: 280, img: "img/vs coconut passion.png" },
-        { name: "Velvet Petals(2)", price: 280, img: "img/vs velvet petals.png" },
-        { name: "Bare Vanilla(0)", price: 280, img: "img/vs bare vanilla.png" },
+        { name: "Velvet Petals(1)", price: 280, img: "img/vs velvet petals.png" },
         { name: "Midnight Bloom(1)", price: 280, img: "img/vs midnight bloom.png" },
         { name: "Let's go girls(1)", price: 280, img: "img/vs let's go girls.png" },
-        { name: "Marshmallow Dream(0)", price: 280, img: "img/vs marshmallow.png" },
         { name: "Cherry Bliss(1)", price: 280, img: "img/vs cherry.png" },
         { name: "Vanilla Fantasy(1)", price: 280, img: "img/vs vanilla fantasy.png" },
       ]
@@ -19,23 +16,35 @@ document.addEventListener("DOMContentLoaded", () => {
     {
       selector: ".sams",
       products: [
-        { name: "Folgers", price: 1, img: "img/folgers.png" },
         { name: "Folgers Instantaneo(1)", price: 350, img: "img/folgers_instantaneo.png" },
-        { name: "Melatonin 10 mg(2)", price: 460, img: "img/melatonin_10.png" },
-        { name: "Melatonin 5 mg", price: 1, img: "img/melatonin_5.png" },
+        { name: "Melatonina 10mg(2)", price: 460, img: "img/melatonin_10.png" },
+        { name: "Melatonina 5mg(1)", price: 360, img: "img/melatonin_5.png" },
       ]
     },
     {
       selector: ".disponible",
-      products: [
+      products: [      
+        { name: "Playera roja Aeropostale mujer-Large(1)", price: 320, img: "img/other aero roja.png" },
+        { name: "Playera morada Aeropostale mujer-Large(1)", price: 320, img: "img/other aero purple.png" },
+        { name: "Toalla de baño verde(1)", price: 260, img: "img/other toalla verde.png" },
+        { name: "Gorro para frio 'Canada'(2)", price: 150, img: "img/other gorros.png" },
+        { name: "Perfume hombre(1)", price: 150, img: "img/other perfume men.png" },
+        { name: "Perfume mujer(3)", price: 150, img: "img/other perfume women.png" },
+        { name: "Perfumitos hombre(6)", price: 60, img: "img/other perfumitos men.png" },
+        { name: "Perfumitos mujer(6)", price: 60, img: "img/other perfumitos women.png" },
+        { name: "Desodorante Crumbl(1)", price: 280, img: "img/other dove crumb.png" },
         { name: "Alcohol verde(4)", price: 80, img: "img/other alcohol.png" },
         { name: "Cuadernos 80 hojas(10)", price: 30, img: "img/other notebook.png" },
-        { name: "Desodorante Crumbl(1)", price: 280, img: "img/other dove crumb.png" },
+        { name: "Cuadernos 100 hojas(5)", price: 40, img: "img/other notebook 2.png" },
+        { name: "Resistol liquido(3)", price: 20, img: "img/other glue.png" },
+        { name: "Caja de 24 crayolas(1)", price: 35, img: "img/other crayons.png" },
       ]
     },
     {
       selector: ".other",
       products: [
+        { name: "Folgers", price: 1, img: "img/folgers.png" },
+        { name: "Victoria's secret - Lociones", price: 1, img: "img/other VS.png" },
         { name: "Playeras - Aeropostale", price: 1, img: "img/other aero.png" },
         { name: "Toallas", price: 1, img: "img/other towels.png" },
         { name: "Bolsas, mochilas, etc", price: 1, img: "img/other bolsas.png" },
