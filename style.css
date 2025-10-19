@@ -1,141 +1,171 @@
-body {
-  margin: 0;
-  overflow-x: hidden;
+  body {
+    margin: 0;
+    overflow-x: hidden;
+  }
+
+  /* Background video */
+  #bgVideo {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+    opacity: 0.55;
+  }
+
+  header {
+    text-align: center;
+    font-size: larger;
+  }
+
+  main {
+    margin: 0 auto;           /* center main */
+    width: 100%;              /* full width */
+    padding-left: 20px;       /* spacing from left */
+    padding-right: 20px;      /* optional: spacing from right */
+    box-sizing: border-box;   /* include padding in width */
+    overflow-y: visible;      /* inner horizontal scroll won't affect main */
+  }
+
+@keyframes twinkle {
+  0%, 100% {
+    color: #000000;  /* black */
+    text-shadow: 0 0 12px #ffffff, 0 0 24px #f5f5f5;
+  }
+  25% {
+    color: #444444;  /* dark gray */
+    text-shadow: 0 0 12px #ffffcc, 0 0 24px #ffffff;
+  }
+  50% {
+    color: #ffffff;  /* white */
+    text-shadow: 0 0 15px #ffcc00, 0 0 25px #ffd700;
+  }
+  75% {
+    color: #222222;  /* near black */
+    text-shadow: 0 0 15px #ffd700, 0 0 25px #ffffff;
+  }
 }
 
-/* Background video */
-#bgVideo {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  z-index: -1;
-  opacity: 0.55;
-}
-
-header {
-  text-align: center;
-  font-size: larger;
-}
-
-main {
-  margin: 0 auto;           /* center main */
-  width: 100%;              /* full width */
-  padding-left: 20px;       /* spacing from left */
-  padding-right: 20px;      /* optional: spacing from right */
-  box-sizing: border-box;   /* include padding in width */
-  overflow-y: visible;      /* inner horizontal scroll won't affect main */
+@keyframes pulse {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.05); }
 }
 
 .henny-penny-regular {
   font-family: "Henny Penny", system-ui;
   font-weight: 400;
   font-style: normal;
-}
-
-h2 {
-  font-size: 2rem;         /* default is around 1.5–1.7rem, so this enlarges it */
-  text-align: left;
-  margin-left: 10px;
-  color: #111;
-  font-family: "Raleway", sans-serif;
-}
-
-/* Product lists (merged selectors) */
-/* Product lists (stable, scrollable, no shifting) */
-.vs, .sams, .other, .disponible {
-  list-style: none;
-  display: inline-flex;
-  gap: 20px;
-  overflow-x: auto;
-  padding: 15px 0;          /* only vertical padding so width is consistent */
-  white-space: nowrap;
-  max-width: 100%;          /* prevent overflow beyond container */
-  scrollbar-gutter: stable; /* reserves space for scrollbar, prevents jump */
-  scroll-behavior: smooth;  /* smooth scroll on swipe */
-  scroll-snap-type: x proximity; /* optional: snap effect for better UX */
-}
-
-.vs li, .sams li, .other li, .disponible li {
-  flex: 0 0 auto;
-  background: rgba(255, 255, 255, 0.8);
-  border-radius: 12px;
-  padding: 10px;
+  font-size: 3.5rem;
   text-align: center;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
-  width: 160px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  height: 480px;
+  animation: twinkle 4s infinite ease-in-out;
+  text-transform: capitalize;
+    animation: twinkle 4s infinite ease-in-out, pulse 3s infinite ease-in-out;
 }
 
-.vs li:hover, .sams li:hover, .other li:hover, .disponible li:hover {
-  background: rgb(255, 238, 0);
-}
 
-.vs li img, .sams li img, .other li img, .disponible li img {
-  width: 100%;
-  border-radius: 8px;
-}
+  h2 {
+    font-size: 2rem;         /* default is around 1.5–1.7rem, so this enlarges it */
+    text-align: left;
+    margin-left: 10px;
+    color: #111;
+    font-family: "Raleway", sans-serif;
+  }
 
-.vs li h3, .sams li h3, .other li h3, .disponible li h3 {
-  margin: 10px 0 5px;
-  font-size: 1.2rem;
-  white-space: normal;
-  word-wrap: break-word;
-}
+  /* Product lists (merged selectors) */
+  /* Product lists (stable, scrollable, no shifting) */
+  .vs, .sams, .other, .disponible {
+    list-style: none;
+    display: inline-flex;
+    gap: 20px;
+    overflow-x: auto;
+    padding: 15px 0;          /* only vertical padding so width is consistent */
+    white-space: nowrap;
+    max-width: 100%;          /* prevent overflow beyond container */
+    scrollbar-gutter: stable; /* reserves space for scrollbar, prevents jump */
+    scroll-behavior: smooth;  /* smooth scroll on swipe */
+    scroll-snap-type: x proximity; /* optional: snap effect for better UX */
+  }
 
-.vs li p, .sams li p, .other li p, .disponible li p {
-  margin: 5px 0;
-  font-weight: bold;
-}
+  .vs li, .sams li, .other li, .disponible li {
+    flex: 0 0 auto;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 12px;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    width: 160px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 480px;
+  }
 
-.vs li .info, .sams li .info, .other li .info, .disponible li .info {
-  margin-top: auto;
-}
+  .vs li:hover, .sams li:hover, .other li:hover, .disponible li:hover {
+    background: rgb(255, 238, 0);
+  }
 
-footer {
-  margin: 60px auto 60px auto;  /* top + bottom margin, centered */
-  width: 80%;                   /* makes it narrower so it looks centered/floating */
-  padding: 25px;
-  background-color: rgba(255, 255, 255, 0.85);
-  text-align: center;
-  border-radius: 16px;
-  box-shadow: 0 8px 20px rgba(0,0,0,0.25); /* deeper shadow for floating look */
-}
+  .vs li img, .sams li img, .other li img, .disponible li img {
+    width: 100%;
+    border-radius: 8px;
+  }
 
-footer h3 {
-  font-size: 2rem;
-  margin-bottom: 10px;
-  font-family: "Raleway", sans-serif;
-  color: #222;
-}
+  .vs li h3, .sams li h3, .other li h3, .disponible li h3 {
+    margin: 10px 0 5px;
+    font-size: 1.2rem;
+    white-space: normal;
+    word-wrap: break-word;
+  }
 
-footer p {
-  font-size: 1.4rem;   /* larger */
-  color: #222;
-  margin-bottom: 18px;
-}
+  .vs li p, .sams li p, .other li p, .disponible li p {
+    margin: 5px 0;
+    font-weight: bold;
+  }
 
-footer a {
-  text-decoration: none;
-}
+  .vs li .info, .sams li .info, .other li .info, .disponible li .info {
+    margin-top: auto;
+  }
 
-.fab.fa-whatsapp {
-  font-size: 60px;       /* bigger icon */
-  color: green;
-  cursor: pointer;
-  animation: blink 2s infinite;
-  transition: transform 0.2s, color 0.2s;
-}
-@keyframes blink {
-  0%, 50%, 100% { opacity: 1; }
-  25%, 75% { opacity: 0; }
-}
-.fab.fa-whatsapp:hover {
-  transform: scale(1.3);
-  color: #25d366;        /* WhatsApp bright green */
-}
+  footer {
+    margin: 60px auto 60px auto;  /* top + bottom margin, centered */
+    width: 80%;                   /* makes it narrower so it looks centered/floating */
+    padding: 25px;
+    background-color: rgba(255, 255, 255, 0.85);
+    text-align: center;
+    border-radius: 16px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.25); /* deeper shadow for floating look */
+  }
+
+  footer h3 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    font-family: "Raleway", sans-serif;
+    color: #222;
+  }
+
+  footer p {
+    font-size: 1.4rem;   /* larger */
+    color: #222;
+    margin-bottom: 18px;
+  }
+
+  footer a {
+    text-decoration: none;
+  }
+
+  .fab.fa-whatsapp {
+    font-size: 60px;       /* bigger icon */
+    color: green;
+    cursor: pointer;
+    animation: blink 2s infinite;
+    transition: transform 0.2s, color 0.2s;
+  }
+  @keyframes blink {
+    0%, 50%, 100% { opacity: 1; }
+    25%, 75% { opacity: 0; }
+  }
+  .fab.fa-whatsapp:hover {
+    transform: scale(1.3);
+    color: #25d366;        /* WhatsApp bright green */
+  }
