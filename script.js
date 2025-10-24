@@ -15,7 +15,6 @@ document.addEventListener("DOMContentLoaded", () => {
     {
       selector: ".sams",
       products: [
-        { name: "Folgers Instantaneo(1)", price: 350, img: "img/folgers_instantaneo.png" },
         { name: "Melatonina 10mg(2)", price: 460, img: "img/melatonin_10.png" },
       ]
     },
@@ -39,8 +38,9 @@ document.addEventListener("DOMContentLoaded", () => {
       selector: ".other",
       products: [
         { name: "Folgers", price: 1, img: "img/folgers.png" },
+        { name: "Folgers Instantaneo", price: 1, img: "img/folgers_instantaneo.png" },
         { name: "Melatonina 5mg", price: 1, img: "img/melatonin_5.png" },
-        { name: "Victoria's secret - Lociones", price: 1, img: "img/other VS.png" },
+        { name: "Lociones de Victoria's Secret", price: 1, img: "img/other VS.png" },
         { name: "Playeras - Aeropostale", price: 1, img: "img/other aero.png" },
         { name: "Toallas", price: 1, img: "img/other towels.png" },
         { name: "Bolsas, mochilas, etc", price: 1, img: "img/other bolsas.png" },
