@@ -28,7 +28,7 @@ document.addEventListener("DOMContentLoaded", () => {
         { name: "Perfumitos hombre(3)", price: 60, img: "img/other perfumitos men.png" },
         { name: "Perfumitos mujer(4)", price: 60, img: "img/other perfumitos women.png" },
         { name: "Desodorante Crumbl(1)", price: 280, img: "img/other dove crumb.png" },
-        { name: "Alcohol verde(4)", price: 80, img: "img/other alcohol.png" },
+        { name: "Alcohol verde(3)", price: 80, img: "img/other alcohol.png" },
         { name: "Cuadernos 80 hojas(10)", price: 30, img: "img/other notebook.png" },
         { name: "Cuadernos 100 hojas(5)", price: 40, img: "img/other notebook 2.png" },
         { name: "Resistol liquido(3)", price: 20, img: "img/other glue.png" },
