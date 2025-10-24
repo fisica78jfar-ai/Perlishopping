@@ -16,7 +16,6 @@ document.addEventListener("DOMContentLoaded", () => {
     {
       selector: ".sams",
       products: [
-        { name: "Folgers(1)", price: 480, img: "img/folgers.png" },
         { name: "Folgers Instantaneo(1)", price: 350, img: "img/folgers_instantaneo.png" },
         { name: "Melatonina 10mg(2)", price: 460, img: "img/melatonin_10.png" },
       ]
@@ -27,8 +26,8 @@ document.addEventListener("DOMContentLoaded", () => {
         { name: "Toalla de baño verde(1)", price: 260, img: "img/other toalla verde.png" },
         { name: "Gorro para frio 'Canada'(2)", price: 150, img: "img/other gorros.png" },
         { name: "Perfume mujer(3)", price: 150, img: "img/other perfume women.png" },
-        { name: "Perfumitos hombre(6)", price: 60, img: "img/other perfumitos men.png" },
-        { name: "Perfumitos mujer(6)", price: 60, img: "img/other perfumitos women.png" },
+        { name: "Perfumitos hombre(3)", price: 60, img: "img/other perfumitos men.png" },
+        { name: "Perfumitos mujer(4)", price: 60, img: "img/other perfumitos women.png" },
         { name: "Desodorante Crumbl(1)", price: 280, img: "img/other dove crumb.png" },
         { name: "Alcohol verde(4)", price: 80, img: "img/other alcohol.png" },
         { name: "Cuadernos 80 hojas(10)", price: 30, img: "img/other notebook.png" },
@@ -40,6 +39,7 @@ document.addEventListener("DOMContentLoaded", () => {
     {
       selector: ".other",
       products: [
+        { name: "Folgers", price: 1, img: "img/folgers.png" },
         { name: "Melatonina 5mg", price: 1, img: "img/melatonin_5.png" },
         { name: "Victoria's secret - Lociones", price: 1, img: "img/other VS.png" },
         { name: "Playeras - Aeropostale", price: 1, img: "img/other aero.png" },
