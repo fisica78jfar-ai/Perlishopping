@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", () => {
     {
       selector: ".sams",
       products: [
-        { name: "Melatonina 10mg(2)", price: 460, img: "img/melatonin_10.png" },
+        { name: "Melatonina 10mg(1)", price: 460, img: "img/melatonin_10.png" },
       ]
     },
     {
