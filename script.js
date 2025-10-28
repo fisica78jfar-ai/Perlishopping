@@ -8,7 +8,6 @@ document.addEventListener("DOMContentLoaded", () => {
         { name: "Velvet Petals(1)", price: 280, img: "img/vs velvet petals.png" },
         { name: "Midnight Bloom(1)", price: 280, img: "img/vs midnight bloom.png" },
         { name: "Let's go girls(1)", price: 280, img: "img/vs let's go girls.png" },
-        { name: "Cherry Bliss(1)", price: 280, img: "img/vs cherry.png" },
         { name: "Vanilla Fantasy(1)", price: 280, img: "img/vs vanilla fantasy.png" },
       ]
     },
@@ -26,7 +25,7 @@ document.addEventListener("DOMContentLoaded", () => {
         { name: "Perfume mujer(3)", price: 150, img: "img/other perfume women.png" },
         { name: "Perfumitos hombre(3)", price: 60, img: "img/other perfumitos men.png" },
         { name: "Perfumitos mujer(4)", price: 60, img: "img/other perfumitos women.png" },
-        { name: "Desodorante Crumbl(1)", price: 280, img: "img/other dove crumb.png" },
+
         { name: "Alcohol verde(3)", price: 80, img: "img/other alcohol.png" },
         { name: "Cuadernos 80 hojas(10)", price: 30, img: "img/other notebook.png" },
         { name: "Cuadernos 100 hojas(5)", price: 40, img: "img/other notebook 2.png" },
@@ -41,6 +40,7 @@ document.addEventListener("DOMContentLoaded", () => {
         { name: "Folgers Instantaneo", price: 1, img: "img/folgers_instantaneo.png" },
         { name: "Melatonina 5mg", price: 1, img: "img/melatonin_5.png" },
         { name: "Lociones de Victoria's Secret", price: 1, img: "img/other VS.png" },
+        { name: "Desodorante Crumbl", price: 1, img: "img/other dove crumb.png" },
         { name: "Playeras - Aeropostale", price: 1, img: "img/other aero.png" },
         { name: "Toallas", price: 1, img: "img/other towels.png" },
         { name: "Bolsas, mochilas, etc", price: 1, img: "img/other bolsas.png" },
