@@ -20,7 +20,6 @@ document.addEventListener("DOMContentLoaded", () => {
     {
       selector: ".disponible",
       products: [
-        { name: "Toalla de baño verde(1)", price: 260, img: "img/other toalla verde.png" },
         { name: "Gorro para frio 'Canada'(2)", price: 150, img: "img/other gorros.png" },
         { name: "Perfume mujer(3)", price: 150, img: "img/other perfume women.png" },
         { name: "Perfumitos hombre(3)", price: 60, img: "img/other perfumitos men.png" },
