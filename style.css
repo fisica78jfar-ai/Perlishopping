@@ -90,7 +90,7 @@
     scroll-snap-type: x proximity; /* optional: snap effect for better UX */
   }
 
- .sams li, .other li, .disponible li {
+ .vs li, .sams li, .other li, .disponible li {
     flex: 0 0 auto;
     background: rgba(255, 255, 255, 0.8);
     border-radius: 12px;
@@ -101,22 +101,9 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 480px;
+    height: 380px;
   }
-  /* ESTE LO SEPARE PARA LO DE LA ALTURA DE LAS NUEVAS IMAGENES DE LAS LOCIONES*/
- .vs li {
-    flex: 0 0 auto;
-    background: rgba(255, 255, 255, 0.8);
-    border-radius: 12px;
-    padding: 10px;
-    text-align: center;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
-    width: 160px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    height: 280px;
-  }
+
   .vs li:hover, .sams li:hover, .other li:hover, .disponible li:hover {
     background: rgb(255, 238, 0);
   }
