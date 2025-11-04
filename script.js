@@ -8,7 +8,6 @@ document.addEventListener("DOMContentLoaded", () => {
         { name: "Velvet Petals(1)", price: 280, img: "img/vs velvet petals.png" },
         { name: "Midnight Bloom(1)", price: 280, img: "img/vs midnight bloom.png" },
         { name: "Let's go girls(1)", price: 280, img: "img/vs let's go girls.png" },
-        { name: "Vanilla Fantasy(1)", price: 280, img: "img/vs vanilla fantasy.png" },
       ]
     },
     {
