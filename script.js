@@ -21,7 +21,7 @@ document.addEventListener("DOMContentLoaded", () => {
       products: [
         { name: "Gorro para frio 'Canada'(2)", price: 150, img: "img/other gorros.png" },
         { name: "Perfume mujer(2)", price: 150, img: "img/other perfume women.png" },
-        { name: "Perfumitos hombre(2)", price: 60, img: "img/other perfumitos men.png" },
+        { name: "Perfumitos hombre(1)", price: 60, img: "img/other perfumitos men.png" },
         { name: "Perfumitos mujer(4)", price: 60, img: "img/other perfumitos women.png" },
         { name: "Cuadernos 80 hojas(10)", price: 30, img: "img/other notebook.png" },
         { name: "Cuadernos 100 hojas(5)", price: 40, img: "img/other notebook 2.png" },
