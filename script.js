@@ -5,7 +5,6 @@ document.addEventListener("DOMContentLoaded", () => {
       selector: ".vs",
       products: [
         { name: "Coconut Passion(1)", price: 280, img: "img/vs coconut passion 2.png" },
-        { name: "Velvet Petals(1)", price: 280, img: "img/vs velvet petals 2.png" },
         { name: "Midnight Bloom(1)", price: 280, img: "img/vs midnight bloom 2.png" },
         { name: "Let's go girls(1)", price: 280, img: "img/vs let's go girls 2.png" },
       ]
