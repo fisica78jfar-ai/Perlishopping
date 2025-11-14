@@ -1,25 +1,26 @@
 document.addEventListener("DOMContentLoaded", () => {
   // Product data
   const productGroups = [
-    {
-      selector: ".vs",
-      products: [
-        { name: "Coconut Passion(1)", price: 280, img: "img/vs coconut passion 2.png" },
-        { name: "Midnight Bloom(1)", price: 280, img: "img/vs midnight bloom 2.png" },
-        { name: "Let's go girls(1)", price: 280, img: "img/vs let's go girls 2.png" },
-      ]
-    },
-    {
-      selector: ".sams",
-      products: [
-        { name: "Melatonina 10mg(1)", price: 460, img: "img/melatonin_10.png" },
-      ]
-    },
+    //{
+      //selector: ".vs",
+      //products: [
+      //  { name: "Coconut Passion(1)", price: 280, img: "img/vs coconut passion 2.png" },
+      //  { name: "Midnight Bloom(1)", price: 280, img: "img/vs midnight bloom 2.png" },
+      //  { name: "Let's go girls(1)", price: 280, img: "img/vs let's go girls 2.png" },
+      //]
+    //},
+    //{
+    //  selector: ".sams",
+    //  products: [
+    //    { name: "Melatonina 10mg(1)", price: 460, img: "img/melatonin_10.png" },
+    //  ]
+    //},
     {
       selector: ".disponible",
       products: [
+        { name: "Melatonina 10mg(1)", price: 460, img: "img/melatonin_10.png" },
         { name: "Gorro para frio 'Canada'(2)", price: 150, img: "img/other gorros.png" },
-        { name: "Perfume mujer(1)", price: 150, img: "img/other perfume women.png" },
+      //  { name: "Perfume mujer(1)", price: 150, img: "img/other perfume women.png" },
         { name: "Perfumitos mujer(2)", price: 60, img: "img/other perfumitos women.png" },
         { name: "Cuadernos 80 hojas(10)", price: 30, img: "img/other notebook.png" },
         { name: "Cuadernos 100 hojas(5)", price: 40, img: "img/other notebook 2.png" },
@@ -44,6 +45,7 @@ document.addEventListener("DOMContentLoaded", () => {
         { name: "Ropa de niños", price: 1, img: "img/other kids.png" },
         { name: "Pantalones, Jeans, etc", price: 1, img: "img/other pants jeans.png" },
         { name: "Perfumes", price: 1, img: "img/other perfumes.png" },
+        { name: "Perfumitos hombre", price: 1, img: "img/other perfumitos men.png" },
         { name: "Zapatos (hombre)", price: 1, img: "img/other shoes men.png" },
         { name: "Zapatos (mujeres)", price: 1, img: "img/other shoes women.png" },
         { name: "Calcetines, calcetas, etc", price: 1, img: "img/other socks.png" },
