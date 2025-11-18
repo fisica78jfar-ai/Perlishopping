@@ -21,7 +21,7 @@ document.addEventListener("DOMContentLoaded", () => {
         { name: "Melatonina 10mg(1)", price: 460, img: "img/melatonin_10.png" },
         { name: "Gorro para frio 'Canada'(2)", price: 150, img: "img/other gorros.png" },
       //  { name: "Perfume mujer(1)", price: 150, img: "img/other perfume women.png" },
-        { name: "Perfumitos mujer(2)", price: 60, img: "img/other perfumitos women.png" },
+        { name: "Perfumito mujer(1)", price: 60, img: "img/other perfumitos women.png" },
         { name: "Cuadernos 80 hojas(10)", price: 30, img: "img/other notebook.png" },
         { name: "Cuadernos 100 hojas(5)", price: 40, img: "img/other notebook 2.png" },
         { name: "Resistol liquido(3)", price: 20, img: "img/other glue.png" },
