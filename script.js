@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", () => {
     {
       selector: ".disponible",
       products: [
-        { name: "Melatonina 10mg(1)", price: 460, img: "img/melatonin_10.png" },
+        
         { name: "Gorro para frio 'Canada'(2)", price: 150, img: "img/other gorros.png" },
       //  { name: "Perfume mujer(1)", price: 150, img: "img/other perfume women.png" },
         { name: "Perfumito mujer(1)", price: 60, img: "img/other perfumitos women.png" },
@@ -33,6 +33,7 @@ document.addEventListener("DOMContentLoaded", () => {
       products: [
         { name: "Folgers", price: 1, img: "img/folgers.png" },
         { name: "Folgers Instantaneo", price: 1, img: "img/folgers_instantaneo.png" },
+        { name: "Melatonina 10mg", price: 1, img: "img/melatonin_10.png" },
         { name: "Melatonina 5mg", price: 1, img: "img/melatonin_5.png" },
         { name: "Lociones de Victoria's Secret", price: 1, img: "img/other VS.png" },
         { name: "Desodorante Crumbl", price: 1, img: "img/other dove crumb.png" },
