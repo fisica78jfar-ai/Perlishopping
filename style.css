@@ -176,7 +176,7 @@
   /*avatar*/
 /* Container bar at the top */
 .fade-avatar-container {
-  width: 100%;
+  width: 80%;
   padding: 25px 30px;
   display: flex;
   align-items: center;
@@ -194,7 +194,7 @@
 
 /* The message */
 .fade-message {
-  font-size: 1.6rem;   /* ⬅️ larger readable text */
+  font-size: 1.9rem;   /* ⬅️ larger readable text */
   font-weight: 700;
   color: #3a2f00;
   max-width: 900px;
