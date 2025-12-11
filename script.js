@@ -19,9 +19,9 @@ document.addEventListener("DOMContentLoaded", () => {
       selector: ".disponible",
       products: [
         
-        { name: "Gorro para frio 'Canada'(2)", price: 150, img: "img/other gorros.png" },
+        { name: "Gorro para frio 'Canada'(1)", price: 150, img: "img/other gorros.png" },
       //  { name: "Perfume mujer(1)", price: 150, img: "img/other perfume women.png" },
-        { name: "Perfumito mujer(1)", price: 60, img: "img/other perfumitos women.png" },
+        
         { name: "Cuadernos 80 hojas(10)", price: 30, img: "img/other notebook.png" },
         { name: "Cuadernos 100 hojas(5)", price: 40, img: "img/other notebook 2.png" },
         { name: "Resistol liquido(3)", price: 20, img: "img/other glue.png" },
@@ -47,6 +47,7 @@ document.addEventListener("DOMContentLoaded", () => {
         { name: "Pantalones, Jeans, etc", price: 1, img: "img/other pants jeans.png" },
         { name: "Perfumes", price: 1, img: "img/other perfumes.png" },
         { name: "Perfumitos hombre", price: 1, img: "img/other perfumitos men.png" },
+        { name: "Perfumito mujer(1)", price: 1, img: "img/other perfumitos women.png" },
         { name: "Zapatos (hombre)", price: 1, img: "img/other shoes men.png" },
         { name: "Zapatos (mujeres)", price: 1, img: "img/other shoes women.png" },
         { name: "Calcetines, calcetas, etc", price: 1, img: "img/other socks.png" },
