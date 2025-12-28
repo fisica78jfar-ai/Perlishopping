@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", () => {
         { name: "Aqua kiss", price: 270, img: "img/vs aqua kiss.png" },
         { name: "Love spell", price: 270, img: "img/vs love spell.png" },
         { name: "Pure seduction", price: 270, img: "img/vs pure seduction.png" },
-        { name: "Velvet petals", price: 270, img: "img/vs velvet petals.png" },
+        { name: "Pure seduction", price: 270, img: "img/vs pure seduction 2.png" },
         { name: "Combo Bare vanilla", price: 300, img: "img/vs pk vanilla.png" },
         { name: "Combo Pure seduction", price: 300, img: "img/vs pk pure seduction.png" },
       ]
