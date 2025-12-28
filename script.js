@@ -1,27 +1,40 @@
 document.addEventListener("DOMContentLoaded", () => {
   // Product data
   const productGroups = [
-    //{
-      //selector: ".vs",
-      //products: [
-      //  { name: "Coconut Passion(1)", price: 280, img: "img/vs coconut passion 2.png" },
-      //  { name: "Midnight Bloom(1)", price: 280, img: "img/vs midnight bloom 2.png" },
-      //  { name: "Let's go girls(1)", price: 280, img: "img/vs let's go girls 2.png" },
-      //]
-    //},
-    //{
-    //  selector: ".sams",
-    //  products: [
+    {
+      selector: ".vs",
+      products: [
+        { name: "Coconut Passion", price: 270, img: "img/vs coconut passion.png" },
+        //{ name: "Midnight Bloom(1)", price: 270, img: "img/vs midnight bloom 2.png" },
+        //{ name: "Let's go girls(1)", price: 20, img: "img/vs let's go girls 2.png" },
+        { name: "Aqua kiss", price: 270, img: "img/vs aqua kiss.png" },
+        { name: "Love spell", price: 270, img: "img/vs love spell.png" },
+        { name: "Pure seduction", price: 270, img: "img/vs pure seduction.png" },
+        { name: "Velvet petals", price: 270, img: "img/vs velvet petals.png" },
+        { name: "Combo Bare vanilla", price: 270, img: "img/vs pk vanilla.png" },
+        { name: "Coconut Pure seduction", price: 270, img: "img/vs pk pure seduction.png" },
+      ]
+    },
+    {
+      selector: ".sams",
+      products: [
     //    { name: "Melatonina 10mg(1)", price: 460, img: "img/melatonin_10.png" },
-    //  ]
-    //},
+        { name: "Folgers", price: 460, img: "img/folgers.png" },
+        { name: "Folgers Instantaneo", price: 340, img: "img/folgers_instantaneo.png" },
+      ]
+    },
     {
       selector: ".disponible",
       products: [
         
-        { name: "Gorro para frio 'Canada'(1)", price: 150, img: "img/other gorros.png" },
-      //  { name: "Perfume mujer(1)", price: 150, img: "img/other perfume women.png" },
         
+        { name: "Perfume mujer", price: 150, img: "img/other perfume women.png" },
+        { name: "Perfume hombre", price: 150, img: "img/other perfume men.png" },
+        { name: "Perfumitos hombre", price: 50, img: "img/other perfumitos men.png" },
+        { name: "Perfumito mujer", price: 50, img: "img/other perfumitos women.png" },
+        { name: "Alcohol verde", price: 75 , img: "img/other alcohol.png" },
+              { name: "Toalla azul", price: 280, img: "img/other toalla.png" },
+              { name: "'Tines', pkt de 3", price: 30, img: "img/other socks.png" },
         { name: "Cuadernos 80 hojas(10)", price: 30, img: "img/other notebook.png" },
         { name: "Cuadernos 100 hojas(5)", price: 40, img: "img/other notebook 2.png" },
         { name: "Resistol liquido(3)", price: 20, img: "img/other glue.png" },
@@ -31,26 +44,24 @@ document.addEventListener("DOMContentLoaded", () => {
     {
       selector: ".other",
       products: [
-        { name: "Folgers", price: 1, img: "img/folgers.png" },
-        { name: "Folgers Instantaneo", price: 1, img: "img/folgers_instantaneo.png" },
+        { name: "Gorro para frio 'Canada'", price: 1, img: "img/other gorros.png"},
         { name: "Melatonina 10mg", price: 1, img: "img/melatonin_10.png" },
         { name: "Melatonina 5mg", price: 1, img: "img/melatonin_5.png" },
         { name: "Lociones de Victoria's Secret", price: 1, img: "img/other VS.png" },
         { name: "Desodorante Crumbl", price: 1, img: "img/other dove crumb.png" },
         { name: "Playeras - Aeropostale", price: 1, img: "img/other aero.png" },
         { name: "Toallas", price: 1, img: "img/other towels.png" },
-        { name: "Alcohol verde", price: 1 , img: "img/other alcohol.png" },
+        
         { name: "Bolsas, mochilas, etc", price: 1, img: "img/other bolsas.png" },
         { name: "Colchas, sabanas, etc", price: 1, img: "img/other blankets.png" },
         { name: "Boxers, playeras interiores,etc", price: 1, img: "img/other boxers.png" },
         { name: "Ropa de niños", price: 1, img: "img/other kids.png" },
         { name: "Pantalones, Jeans, etc", price: 1, img: "img/other pants jeans.png" },
         { name: "Perfumes", price: 1, img: "img/other perfumes.png" },
-        { name: "Perfumitos hombre", price: 1, img: "img/other perfumitos men.png" },
-        { name: "Perfumito mujer(1)", price: 1, img: "img/other perfumitos women.png" },
+        
         { name: "Zapatos (hombre)", price: 1, img: "img/other shoes men.png" },
         { name: "Zapatos (mujeres)", price: 1, img: "img/other shoes women.png" },
-        { name: "Calcetines, calcetas, etc", price: 1, img: "img/other socks.png" },
+        
         { name: "Ropa de invierno", price: 1, img: "img/other sweaters.png" },
         { name: "Tennis", price: 1, img: "img/other tennis.png" },
         { name: "Snacks", price: 1, img: "img/other kars.png" },
