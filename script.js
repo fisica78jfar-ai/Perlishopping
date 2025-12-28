@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", () => {
         { name: "Pure seduction", price: 270, img: "img/vs pure seduction.png" },
         { name: "Pure seduction", price: 270, img: "img/vs pure seduction 2.png" },
         { name: "Combo Bare vanilla", price: 300, img: "img/vs pk vanilla.png" },
-        { name: "Combo Pure seduction", price: 300, img: "img/vs pk pure seduction.png" },
+        //{ name: "Combo Pure seduction", price: 300, img: "img/vs pk pure seduction.png" },
       ]
     },
     {
@@ -34,7 +34,7 @@ document.addEventListener("DOMContentLoaded", () => {
         { name: "Perfumito mujer", price: 50, img: "img/other perfumitos women.png" },
         { name: "Alcohol verde", price: 75 , img: "img/other alcohol.png" },
               { name: "Toalla azul", price: 280, img: "img/other toalla.png" },
-              { name: "'Tines', pkt de 3", price: 30, img: "img/other socks.png" },
+              
         { name: "Cuadernos 80 hojas(10)", price: 30, img: "img/other notebook.png" },
         { name: "Cuadernos 100 hojas(5)", price: 40, img: "img/other notebook 2.png" },
         { name: "Resistol liquido(3)", price: 20, img: "img/other glue.png" },
@@ -44,6 +44,7 @@ document.addEventListener("DOMContentLoaded", () => {
     {
       selector: ".other",
       products: [
+        { name: "'Calcetines, calzetas, etc", price: 1, img: "img/other socks.png" },
         { name: "Gorro para frio 'Canada'", price: 1, img: "img/other gorros.png"},
         { name: "Melatonina 10mg", price: 1, img: "img/melatonin_10.png" },
         { name: "Melatonina 5mg", price: 1, img: "img/melatonin_5.png" },
