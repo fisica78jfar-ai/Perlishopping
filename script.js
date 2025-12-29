@@ -4,13 +4,13 @@ document.addEventListener("DOMContentLoaded", () => {
     {
       selector: ".vs",
       products: [
-        { name: "Coconut Passion", price: 270, img: "img/vs coconut passion.png" },
+        //{ name: "Coconut Passion", price: 270, img: "img/vs coconut passion.png" },
         //{ name: "Midnight Bloom(1)", price: 270, img: "img/vs midnight bloom 2.png" },
         //{ name: "Let's go girls(1)", price: 20, img: "img/vs let's go girls 2.png" },
         { name: "Aqua kiss", price: 270, img: "img/vs aqua kiss.png" },
         { name: "Love spell", price: 270, img: "img/vs love spell.png" },
-        { name: "Pure seduction", price: 270, img: "img/vs pure seduction.png" },
-        { name: "Pure seduction", price: 270, img: "img/vs pure seduction 2.png" },
+        //{ name: "Pure seduction", price: 270, img: "img/vs pure seduction.png" },
+        //{ name: "Pure seduction", price: 270, img: "img/vs pure seduction 2.png" },
         { name: "Combo Bare vanilla", price: 300, img: "img/vs pk vanilla.png" },
         //{ name: "Combo Pure seduction", price: 300, img: "img/vs pk pure seduction.png" },
       ]
