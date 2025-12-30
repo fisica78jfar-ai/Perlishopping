@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", () => {
         { name: "Love spell", price: 270, img: "img/vs love spell.png" },
         //{ name: "Pure seduction", price: 270, img: "img/vs pure seduction.png" },
         //{ name: "Pure seduction", price: 270, img: "img/vs pure seduction 2.png" },
-        { name: "Combo Bare vanilla", price: 300, img: "img/vs pk vanilla.png" },
+        //{ name: "Combo Bare vanilla", price: 300, img: "img/vs pk vanilla.png" },
         //{ name: "Combo Pure seduction", price: 300, img: "img/vs pk pure seduction.png" },
       ]
     },
@@ -30,7 +30,7 @@ document.addEventListener("DOMContentLoaded", () => {
         
         { name: "Perfume mujer", price: 150, img: "img/other perfume women.png" },
         { name: "Perfume hombre", price: 150, img: "img/other perfume men.png" },
-        { name: "Perfumitos hombre", price: 50, img: "img/other perfumitos men.png" },
+
         { name: "Perfumito mujer", price: 50, img: "img/other perfumitos women.png" },
         { name: "Alcohol verde", price: 75 , img: "img/other alcohol.png" },
               { name: "Toalla azul", price: 280, img: "img/other toalla.png" },
@@ -44,15 +44,16 @@ document.addEventListener("DOMContentLoaded", () => {
     {
       selector: ".other",
       products: [
-        { name: "'Calcetines, calzetas, etc", price: 1, img: "img/other socks.png" },
-        { name: "Gorro para frio 'Canada'", price: 1, img: "img/other gorros.png"},
+        
         { name: "Melatonina 10mg", price: 1, img: "img/melatonin_10.png" },
         { name: "Melatonina 5mg", price: 1, img: "img/melatonin_5.png" },
         { name: "Lociones de Victoria's Secret", price: 1, img: "img/other VS.png" },
         { name: "Desodorante Crumbl", price: 1, img: "img/other dove crumb.png" },
         { name: "Playeras - Aeropostale", price: 1, img: "img/other aero.png" },
         { name: "Toallas", price: 1, img: "img/other towels.png" },
-        
+        { name: "Perfumitos hombre", price: 50, img: "img/other perfumitos men.png" },
+        { name: "'Calcetines, calzetas, etc", price: 1, img: "img/other socks.png" },
+        { name: "Gorro para frio 'Canada'", price: 1, img: "img/other gorros.png"},
         { name: "Bolsas, mochilas, etc", price: 1, img: "img/other bolsas.png" },
         { name: "Colchas, sabanas, etc", price: 1, img: "img/other blankets.png" },
         { name: "Boxers, playeras interiores,etc", price: 1, img: "img/other boxers.png" },
