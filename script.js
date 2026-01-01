@@ -4,12 +4,12 @@ document.addEventListener("DOMContentLoaded", () => {
     {
       selector: ".vs",
       products: [
-        //{ name: "Coconut Passion", price: 270, img: "img/vs coconut passion.png" },
+        { name: "Coconut Passion", price: 270, img: "img/vs coconut passion.png" },
         //{ name: "Midnight Bloom(1)", price: 270, img: "img/vs midnight bloom 2.png" },
         //{ name: "Let's go girls(1)", price: 20, img: "img/vs let's go girls 2.png" },
-        { name: "Aqua kiss", price: 270, img: "img/vs aqua kiss.png" },
-        { name: "Love spell", price: 270, img: "img/vs love spell.png" },
-        //{ name: "Pure seduction", price: 270, img: "img/vs pure seduction.png" },
+        //{ name: "Aqua kiss", price: 270, img: "img/vs aqua kiss.png" },
+        //{ name: "Love spell", price: 270, img: "img/vs love spell.png" },
+        { name: "Pure seduction", price: 270, img: "img/vs pure seduction.png" },
         //{ name: "Pure seduction", price: 270, img: "img/vs pure seduction 2.png" },
         //{ name: "Combo Bare vanilla", price: 300, img: "img/vs pk vanilla.png" },
         //{ name: "Combo Pure seduction", price: 300, img: "img/vs pk pure seduction.png" },
@@ -31,9 +31,9 @@ document.addEventListener("DOMContentLoaded", () => {
         { name: "Perfume mujer", price: 150, img: "img/other perfume women.png" },
         { name: "Perfume hombre", price: 150, img: "img/other perfume men.png" },
 
-        { name: "Perfumito mujer", price: 50, img: "img/other perfumitos women.png" },
+        
         { name: "Alcohol verde", price: 75 , img: "img/other alcohol.png" },
-              { name: "Toalla azul", price: 280, img: "img/other toalla.png" },
+              //{ name: "Toalla azul", price: 280, img: "img/other toalla.png" },
               
         { name: "Cuadernos 80 hojas(10)", price: 30, img: "img/other notebook.png" },
         { name: "Cuadernos 100 hojas(5)", price: 40, img: "img/other notebook 2.png" },
@@ -51,7 +51,8 @@ document.addEventListener("DOMContentLoaded", () => {
         { name: "Desodorante Crumbl", price: 1, img: "img/other dove crumb.png" },
         { name: "Playeras - Aeropostale", price: 1, img: "img/other aero.png" },
         { name: "Toallas", price: 1, img: "img/other towels.png" },
-        { name: "Perfumitos hombre", price: 50, img: "img/other perfumitos men.png" },
+        { name: "Perfumitos hombre", price: 1, img: "img/other perfumitos men.png" },
+        { name: "Perfumito mujer", price: 1, img: "img/other perfumitos women.png" },
         { name: "'Calcetines, calzetas, etc", price: 1, img: "img/other socks.png" },
         { name: "Gorro para frio 'Canada'", price: 1, img: "img/other gorros.png"},
         { name: "Bolsas, mochilas, etc", price: 1, img: "img/other bolsas.png" },
