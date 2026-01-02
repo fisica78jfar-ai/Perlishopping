@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", () => {
         //{ name: "Let's go girls(1)", price: 20, img: "img/vs let's go girls 2.png" },
         //{ name: "Aqua kiss", price: 270, img: "img/vs aqua kiss.png" },
         //{ name: "Love spell", price: 270, img: "img/vs love spell.png" },
-        { name: "Pure seduction", price: 270, img: "img/vs pure seduction.png" },
+        //{ name: "Pure seduction", price: 270, img: "img/vs pure seduction.png" },
         //{ name: "Pure seduction", price: 270, img: "img/vs pure seduction 2.png" },
         //{ name: "Combo Bare vanilla", price: 300, img: "img/vs pk vanilla.png" },
         //{ name: "Combo Pure seduction", price: 300, img: "img/vs pk pure seduction.png" },
@@ -32,7 +32,7 @@ document.addEventListener("DOMContentLoaded", () => {
         { name: "Perfume hombre", price: 150, img: "img/other perfume men.png" },
 
         
-        { name: "Alcohol verde", price: 75 , img: "img/other alcohol.png" },
+        //{ name: "Alcohol verde", price: 75 , img: "img/other alcohol.png" },
               //{ name: "Toalla azul", price: 280, img: "img/other toalla.png" },
               
         { name: "Cuadernos 80 hojas(10)", price: 30, img: "img/other notebook.png" },
