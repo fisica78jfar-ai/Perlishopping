@@ -15,36 +15,37 @@ document.addEventListener("DOMContentLoaded", () => {
         //{ name: "Combo Pure seduction", price: 300, img: "img/vs pk pure seduction.png" },
       //]
     //},
-    {
-      selector: ".sams",
-      products: [
+   // {
+     // selector: ".sams",
+      //products: [
     //    { name: "Melatonina 10mg(1)", price: 460, img: "img/melatonin_10.png" },
-        { name: "Folgers", price: 460, img: "img/folgers.png" },
-        { name: "Folgers Instantaneo", price: 340, img: "img/folgers_instantaneo.png" },
-      ]
-    },
-    {
-      selector: ".disponible",
-      products: [
+       // { name: "Folgers", price: 460, img: "img/folgers.png" },
+      //  { name: "Folgers Instantaneo", price: 340, img: "img/folgers_instantaneo.png" },
+     // ]
+    //},
+    //{
+      //selector: ".disponible",
+      //products: [
         
         
-        { name: "Perfume mujer", price: 150, img: "img/other perfume women.png" },
-        { name: "Perfume hombre", price: 150, img: "img/other perfume men.png" },
+        //{ name: "Perfume mujer", price: 150, img: "img/other perfume women.png" },
+       // { name: "Perfume hombre", price: 150, img: "img/other perfume men.png" },
 
         
         //{ name: "Alcohol verde", price: 75 , img: "img/other alcohol.png" },
               //{ name: "Toalla azul", price: 280, img: "img/other toalla.png" },
               
-        { name: "Cuadernos 80 hojas(10)", price: 30, img: "img/other notebook.png" },
-        { name: "Cuadernos 100 hojas(5)", price: 40, img: "img/other notebook 2.png" },
-        { name: "Resistol liquido(3)", price: 20, img: "img/other glue.png" },
-        { name: "Caja de 24 crayolas(1)", price: 35, img: "img/other crayons.png" },
-      ]
-    },
+        //{ name: "Cuadernos 80 hojas(10)", price: 30, img: "img/other notebook.png" },
+       // { name: "Cuadernos 100 hojas(5)", price: 40, img: "img/other notebook 2.png" },
+       // { name: "Resistol liquido(3)", price: 20, img: "img/other glue.png" },
+        //{ name: "Caja de 24 crayolas(1)", price: 35, img: "img/other crayons.png" },
+      //]
+   //}, },
     {
       selector: ".other",
       products: [
-        
+        { name: "Folgers", price: 1, img: "img/folgers.png" },
+        { name: "Folgers Instantaneo", price: 1, img: "img/folgers_instantaneo.png" },
         { name: "Melatonina 10mg", price: 1, img: "img/melatonin_10.png" },
         { name: "Melatonina 5mg", price: 1, img: "img/melatonin_5.png" },
         { name: "Lociones de Victoria's Secret", price: 1, img: "img/other VS.png" },
