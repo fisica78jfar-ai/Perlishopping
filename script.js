@@ -1,20 +1,34 @@
 document.addEventListener("DOMContentLoaded", () => {
   // Product data
   const productGroups = [
-    //{
-      //selector: ".vs",
-      //products: [
-      //  { name: "Coconut Passion", price: 270, img: "img/vs coconut passion.png" },
-        //{ name: "Midnight Bloom(1)", price: 270, img: "img/vs midnight bloom 2.png" },
-        //{ name: "Let's go girls(1)", price: 20, img: "img/vs let's go girls 2.png" },
-        //{ name: "Aqua kiss", price: 270, img: "img/vs aqua kiss.png" },
-        //{ name: "Love spell", price: 270, img: "img/vs love spell.png" },
-        //{ name: "Pure seduction", price: 270, img: "img/vs pure seduction.png" },
-        //{ name: "Pure seduction", price: 270, img: "img/vs pure seduction 2.png" },
-        //{ name: "Combo Bare vanilla", price: 300, img: "img/vs pk vanilla.png" },
-        //{ name: "Combo Pure seduction", price: 300, img: "img/vs pk pure seduction.png" },
-      //]
-    //},
+    {
+      selector: ".vs",
+      products: [
+        { name: "Bare Vanilla Shimmer", price: 0, img: "img/VS - Bare Vanilla Shimmer.png" },
+        { name: "Bare Vanilla Vacation", price: 0, img: "img/VS - Bare Vanilla Vacation.png" },
+        { name: "Bare Vanilla", price: 0, img: "img/VS - Bare Vanilla.png" },
+        { name: "Cake and Cream", price: 0, img: "img/VS - Cake and Cream.png" },
+        { name: "Coconut Passion Cream", price: 0, img: "img/VS - Coconut Passion Cream.png" },
+        { name: "Coconut Passion", price: 0, img: "img/VS - Coconut Passion.png" },
+        { name: "Love Spell Shimmer", price: 0, img: "img/VS - Love Spell Shimmer.png" },
+        { name: "Midnight Bloom", price: 0, img: "img/VS - Midnight Bloom.png" },
+        { name: "Pure Seduction Vacation", price: 0, img: "img/VS - Pure Seduction Vacation.png" },
+        { name: "Vanilla Woods", price: 0, img: "img/VS - Vanilla Woods.png" },
+      ]
+    },
+
+
+    {
+      selector: ".pink",
+      products: [
+        { name: "Coconut", price: 0, img: "img/PINK - Coconut.png" },
+        { name: "Pine Apple", price: 0, img: "img/PINK - Pine Apple.png" },
+        { name: "Pink Apple", price: 0, img: "img/PINK - Pink Apple.png" },
+        { name: "Super Berry", price: 0, img: "img/PINK - Super Berry.png" },
+        { name: "Vanilla", price: 0, img: "img/PINK - Vanilla.png" },
+        { name: "Watermelon", price: 0, img: "img/PINK - Watermelon.png" },
+      ]
+    },
    // {
      // selector: ".sams",
       //products: [
@@ -23,24 +37,18 @@ document.addEventListener("DOMContentLoaded", () => {
       //  { name: "Folgers Instantaneo", price: 340, img: "img/folgers_instantaneo.png" },
      // ]
     //},
-    //{
-      //selector: ".disponible",
-      //products: [
-        
-        
-        //{ name: "Perfume mujer", price: 150, img: "img/other perfume women.png" },
-       // { name: "Perfume hombre", price: 150, img: "img/other perfume men.png" },
 
-        
-        //{ name: "Alcohol verde", price: 75 , img: "img/other alcohol.png" },
-              //{ name: "Toalla azul", price: 280, img: "img/other toalla.png" },
-              
-        //{ name: "Cuadernos 80 hojas(10)", price: 30, img: "img/other notebook.png" },
-       // { name: "Cuadernos 100 hojas(5)", price: 40, img: "img/other notebook 2.png" },
-       // { name: "Resistol liquido(3)", price: 20, img: "img/other glue.png" },
-        //{ name: "Caja de 24 crayolas(1)", price: 35, img: "img/other crayons.png" },
-      //]
-   //}, },
+    {
+      selector: ".disponible",
+      products: [
+        { name: "Cafetera", price: 0, img: "img/available - coffee maker.png" },
+        { name: "Plancha", price: 0, img: "img/available - plancha b&d.png" },
+        { name: "Juego: Sequence", price: 0, img: "img/available - sequence game.png" },
+        { name: "Juego: Sorry", price: 0, img: "img/available - sorry giant.png" },
+        { name: "Alcohol verde", price: 0, img: "img/available - alcohol.png" },
+      ]
+    },
+
     {
       selector: ".other",
       products: [
@@ -48,7 +56,7 @@ document.addEventListener("DOMContentLoaded", () => {
         { name: "Folgers Instantaneo", price: 1, img: "img/folgers_instantaneo.png" },
         { name: "Melatonina 10mg", price: 1, img: "img/melatonin_10.png" },
         { name: "Melatonina 5mg", price: 1, img: "img/melatonin_5.png" },
-        { name: "Lociones de Victoria's Secret", price: 1, img: "img/other VS.png" },
+        // { name: "Lociones de Victoria's Secret", price: 1, img: "img/other VS.png" },
         { name: "Desodorante Crumbl", price: 1, img: "img/other dove crumb.png" },
         { name: "Playeras - Aeropostale", price: 1, img: "img/other aero.png" },
         { name: "Toallas", price: 1, img: "img/other towels.png" },
@@ -72,7 +80,7 @@ document.addEventListener("DOMContentLoaded", () => {
         { name: "Velas - Bath and Body Works", price: 1, img: "img/other candle.png" },
         { name: "Gel - Bath and Body Works", price: 1, img: "img/other gel.png" },
         { name: "Jabon de manos  - Bath and Body Works", price: 1, img: "img/other jabon.png" },
-        { name: "Juegos de mesa", price: 1, img: "img/other games.png" },
+        //{ name: "Juegos de mesa", price: 1, img: "img/other games.png" },
       ]
     }
   ];
@@ -101,7 +109,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   // Enlarge image on click
   // Image enlarge on click (move this INSIDE)
-  document.querySelectorAll(".vs, .sams, .other, .disponible").forEach(list => {
+  document.querySelectorAll(".vs, .sams, .pink, .other, .disponible").forEach(list => {
     list.addEventListener("click", (e) => {
       if (e.target.tagName === "IMG") {
         const img = e.target;
