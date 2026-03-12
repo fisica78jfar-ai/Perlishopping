@@ -41,8 +41,8 @@ document.addEventListener("DOMContentLoaded", () => {
     {
       selector: ".disponible",
       products: [
-        { name: "Cafetera Hamilton Beach", price: 0, img: "img/available - coffee maker.png" },
-        { name: "Plancha Black and Decker", price: 0, img: "img/available - plancha b&d.png" },
+        { name: "Cafetera Hamilton Beach ", price: 0, img: "img/available - coffee maker.png" },
+        { name: "Plancha Black and Decker ", price: 0, img: "img/available - plancha b&d.png" },
         { name: "Juego: Sequence", price: 0, img: "img/available - sequence game.png" },
         { name: "Juego: Sorry", price: 0, img: "img/available - sorry giant.png" },
         { name: "Alcohol verde", price: 0, img: "img/available - alcohol.png" },
