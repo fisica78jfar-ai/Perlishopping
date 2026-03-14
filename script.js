@@ -4,16 +4,16 @@ document.addEventListener("DOMContentLoaded", () => {
     {
       selector: ".vs",
       products: [
-        { name: "Bare Vanilla Shimmer", price: 0, img: "img/VS - Bare Vanilla Shimmer.png" },
-        { name: "Bare Vanilla Vacation", price: 0, img: "img/VS - Bare Vanilla Vacation.png" },
-        { name: "Bare Vanilla", price: 0, img: "img/VS - Bare Vanilla.png" },
-        { name: "Cake and Cream", price: 0, img: "img/VS - Cake and Cream.png" },
-        { name: "Coconut Passion Cream", price: 0, img: "img/VS - Coconut Passion Cream.png" },
-        { name: "Coconut Passion", price: 0, img: "img/VS - Coconut Passion.png" },
-        { name: "Love Spell Shimmer", price: 0, img: "img/VS - Love Spell Shimmer.png" },
-        { name: "Midnight Bloom", price: 0, img: "img/VS - Midnight Bloom.png" },
-        { name: "Pure Seduction Vacation", price: 0, img: "img/VS - Pure Seduction Vacation.png" },
-        { name: "Vanilla Woods", price: 0, img: "img/VS - Vanilla Woods.png" },
+        { name: "Bare Vanilla Shimmer", price: 1, img: "img/VS - Bare Vanilla Shimmer.png" },
+        { name: "Bare Vanilla Vacation", price: 1, img: "img/VS - Bare Vanilla Vacation.png" },
+        { name: "Bare Vanilla", price: 1, img: "img/VS - Bare Vanilla.png" },
+        { name: "Cake and Cream", price: 1, img: "img/VS - Cake and Cream.png" },
+        { name: "Coconut Passion Cream", price: 1, img: "img/VS - Coconut Passion Cream.png" },
+        { name: "Coconut Passion", price: 1, img: "img/VS - Coconut Passion.png" },
+        { name: "Love Spell Shimmer", price: 1, img: "img/VS - Love Spell Shimmer.png" },
+        { name: "Midnight Bloom", price: 1, img: "img/VS - Midnight Bloom.png" },
+        { name: "Pure Seduction Vacation", price: 1, img: "img/VS - Pure Seduction Vacation.png" },
+        { name: "Vanilla Woods", price: 1, img: "img/VS - Vanilla Woods.png" },
       ]
     },
 
@@ -21,65 +21,75 @@ document.addEventListener("DOMContentLoaded", () => {
     {
       selector: ".pink",
       products: [
-        { name: "Coconut", price: 0, img: "img/PINK - Coconut.png" },
-        { name: "Pine Apple", price: 0, img: "img/PINK - Pine Apple.png" },
-        { name: "Pink Apple", price: 0, img: "img/PINK - Pink Apple.png" },
-        { name: "Super Berry", price: 0, img: "img/PINK - Super Berry.png" },
-        { name: "Vanilla", price: 0, img: "img/PINK - Vanilla.png" },
-        { name: "Watermelon", price: 0, img: "img/PINK - Watermelon.png" },
+        { name: "Coconut", price: 1, img: "img/PINK - Coconut.png" },
+        { name: "Pine Apple", price: 1, img: "img/PINK - Pine Apple.png" },
+        { name: "Pink Apple", price: 1, img: "img/PINK - Pink Apple.png" },
+        { name: "Super Berry", price: 1, img: "img/PINK - Super Berry.png" },
+        { name: "Vanilla", price: 1, img: "img/PINK - Vanilla.png" },
+        { name: "Watermelon", price: 1, img: "img/PINK - Watermelon.png" },
       ]
     },
-   // {
-     // selector: ".sams",
-      //products: [
-    //    { name: "Melatonina 10mg(1)", price: 460, img: "img/melatonin_10.png" },
-       // { name: "Folgers", price: 460, img: "img/folgers.png" },
-      //  { name: "Folgers Instantaneo", price: 340, img: "img/folgers_instantaneo.png" },
-     // ]
-    //},
+
+   {
+     selector: ".sams",
+      products: [
+        { name: "Folgers", price: 1, img: "img/folgers.png" },
+    { name: "Folgers Instantaneo", price: 1, img: "img/folgers_instantaneo.png" },
+    { name: "Cremas para café", price: 1, img: "img/HEB - Creams.png" },
+    { name: "Mantequilla", price: 1, img: "img/HEB - Mantequilla.png" },
+    { name: "Melatonina 10mg", price: 1, img: "img/SC - melatonine 10mg.png" },
+    { name: "Melatonina 5mg", price: 1, img: "img/SC - melatonine 5mg.png" },
+    { name: "Vitaminas -hombre", price: 1, img: "img/SC - vitamin men.png" },
+    { name: "Vitaminas -mujer", price: 1, img: "img/SC - vitamin women.png" },
+    { name: "Probioticos", price: 1, img: "img/SC - probioticos.png" },
+    
+    ]
+  },
 
     {
       selector: ".disponible",
       products: [
-        { name: "Cafetera Hamilton Beach ", price: 0, img: "img/available - coffee maker.png" },
-        { name: "Plancha Black and Decker ", price: 0, img: "img/available - plancha b&d.png" },
-        { name: "Juego: Sequence", price: 0, img: "img/available - sequence game.png" },
-        { name: "Juego: Sorry", price: 0, img: "img/available - sorry giant.png" },
-        { name: "Alcohol verde", price: 0, img: "img/available - alcohol.png" },
+        { name: "Cafetera Hamilton Beach", price: 1, img: "img/W - coffee maker.png" },
+        { name: "Plancha Black and Decker", price: 1, img: "img/W - plancha b&d.png" },
+        { name: "Slow Cooker -H Beach", price: 1, img: "img/W - slow cooker.png" },
+        { name: "Roku - HD", price: 1, img: "img/W-roku.png" },
+        { name: "Odorizante y refills", price: 1, img: "img/SC - scent booster.png" },
+
+        
       ]
     },
 
     {
       selector: ".other",
       products: [
-        { name: "Folgers", price: 1, img: "img/folgers.png" },
-        { name: "Folgers Instantaneo", price: 1, img: "img/folgers_instantaneo.png" },
-        { name: "Melatonina 10mg", price: 1, img: "img/melatonin_10.png" },
-        { name: "Melatonina 5mg", price: 1, img: "img/melatonin_5.png" },
+        { name: "Juego: Sequence", price: 1, img: "img/W - sequence game.png" },
+        { name: "Juego: Sorry", price: 1, img: "img/W - sorry giant.png" },
+        { name: "Hanes - 8 briefs", price: 1, img: "img/SC - men briefs.png" },
+        { name: "Old spice -5pk 85g", price: 1, img: "img/SC - Old spice.png" },
+        
         // { name: "Lociones de Victoria's Secret", price: 1, img: "img/other VS.png" },
         { name: "Desodorante Crumbl", price: 1, img: "img/other dove crumb.png" },
-        { name: "Playeras - Aeropostale", price: 1, img: "img/other aero.png" },
-        { name: "Toallas", price: 1, img: "img/other towels.png" },
-        { name: "Perfumitos hombre", price: 1, img: "img/other perfumitos men.png" },
-        { name: "Perfumito mujer", price: 1, img: "img/other perfumitos women.png" },
-        { name: "'Calcetines, calzetas, etc", price: 1, img: "img/other socks.png" },
-        { name: "Gorro para frio 'Canada'", price: 1, img: "img/other gorros.png"},
-        { name: "Bolsas, mochilas, etc", price: 1, img: "img/other bolsas.png" },
-        { name: "Colchas, sabanas, etc", price: 1, img: "img/other blankets.png" },
-        { name: "Boxers, playeras interiores,etc", price: 1, img: "img/other boxers.png" },
-        { name: "Ropa de niños", price: 1, img: "img/other kids.png" },
-        { name: "Pantalones, Jeans, etc", price: 1, img: "img/other pants jeans.png" },
-        { name: "Perfumes", price: 1, img: "img/other perfumes.png" },
-        
-        { name: "Zapatos (hombre)", price: 1, img: "img/other shoes men.png" },
-        { name: "Zapatos (mujeres)", price: 1, img: "img/other shoes women.png" },
-        
-        { name: "Ropa de invierno", price: 1, img: "img/other sweaters.png" },
-        { name: "Tennis", price: 1, img: "img/other tennis.png" },
-        { name: "Snacks", price: 1, img: "img/other kars.png" },
-        { name: "Velas - Bath and Body Works", price: 1, img: "img/other candle.png" },
+        //{ name: "Playeras - Aeropostale", price: 1, img: "img/other aero.png" },
+        //{ name: "Toallas", price: 1, img: "img/other towels.png" },
+        //{ name: "Perfumitos hombre", price: 1, img: "img/other perfumitos men.png" },
+        //{ name: "Perfumito mujer", price: 1, img: "img/other perfumitos women.png" },
+        //{ name: "'Calcetines, calzetas, etc", price: 1, img: "img/other socks.png" },
+        //{ name: "Gorro para frio 'Canada'", price: 1, img: "img/other gorros.png"},
+        //{ name: "Bolsas, mochilas, etc", price: 1, img: "img/other bolsas.png" },
+        //{ name: "Colchas, sabanas, etc", price: 1, img: "img/other blankets.png" },
+        //{ name: "Boxers, playeras interiores,etc", price: 1, img: "img/other boxers.png" },
+        //{ name: "Ropa de niños", price: 1, img: "img/other kids.png" },
+        //{ name: "Pantalones, Jeans, etc", price: 1, img: "img/other pants jeans.png" },
+        //{ name: "Perfumes", price: 1, img: "img/other perfumes.png" },
+        //{ name: "Zapatos (hombre)", price: 1, img: "img/other shoes men.png" },
+        //{ name: "Zapatos (mujeres)", price: 1, img: "img/other shoes women.png" },
+        //{ name: "Ropa de invierno", price: 1, img: "img/other sweaters.png" },
+        //{ name: "Tennis", price: 1, img: "img/other tennis.png" },
+        //{ name: "Snacks", price: 1, img: "img/other kars.png" },
+        //{ name: "Velas - Bath and Body Works", price: 1, img: "img/other candle.png" },
         { name: "Gel - Bath and Body Works", price: 1, img: "img/other gel.png" },
         { name: "Jabon de manos  - Bath and Body Works", price: 1, img: "img/other jabon.png" },
+        { name: "Alcohol verde", price: 1, img: "img/W - alcohol.png" },
         //{ name: "Juegos de mesa", price: 1, img: "img/other games.png" },
       ]
     }
