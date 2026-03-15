@@ -4,16 +4,16 @@ document.addEventListener("DOMContentLoaded", () => {
     {
       selector: ".vs",
       products: [
-        { name: "Bare Vanilla Shimmer", price: 1, img: "img/VS - Bare Vanilla Shimmer.png" },
-        { name: "Bare Vanilla Vacation", price: 1, img: "img/VS - Bare Vanilla Vacation.png" },
-        { name: "Bare Vanilla", price: 1, img: "img/VS - Bare Vanilla.png" },
-        { name: "Cake and Cream", price: 1, img: "img/VS - Cake and Cream.png" },
-        { name: "Coconut Passion Cream", price: 1, img: "img/VS - Coconut Passion Cream.png" },
-        { name: "Coconut Passion", price: 1, img: "img/VS - Coconut Passion.png" },
-        { name: "Love Spell Shimmer", price: 1, img: "img/VS - Love Spell Shimmer.png" },
-        { name: "Midnight Bloom", price: 1, img: "img/VS - Midnight Bloom.png" },
-        { name: "Pure Seduction Vacation", price: 1, img: "img/VS - Pure Seduction Vacation.png" },
-        { name: "Vanilla Woods", price: 1, img: "img/VS - Vanilla Woods.png" },
+        { name: "Bare Vanilla Shimmer", price: 270, img: "img/VS - Bare Vanilla Shimmer.png" },
+        { name: "Bare Vanilla Vacation", price: 270, img: "img/VS - Bare Vanilla Vacation.png" },
+        { name: "Bare Vanilla", price: 270, img: "img/VS - Bare Vanilla.png" },
+        { name: "Cake and Cream", price: 270, img: "img/VS - Cake and Cream.png" },
+        { name: "Coconut Passion Cream", price: 270, img: "img/VS - Coconut Passion Cream.png" },
+        { name: "Coconut Passion", price: 270, img: "img/VS - Coconut Passion.png" },
+        { name: "Love Spell Shimmer", price: 270, img: "img/VS - Love Spell Shimmer.png" },
+        { name: "Midnight Bloom", price: 270, img: "img/VS - Midnight Bloom.png" },
+        { name: "Pure Seduction Vacation", price: 270, img: "img/VS - Pure Seduction Vacation.png" },
+        { name: "Vanilla Woods", price: 270, img: "img/VS - Vanilla Woods.png" },
       ]
     },
 
@@ -21,27 +21,28 @@ document.addEventListener("DOMContentLoaded", () => {
     {
       selector: ".pink",
       products: [
-        { name: "Coconut", price: 1, img: "img/PINK - Coconut.png" },
-        { name: "Pine Apple", price: 1, img: "img/PINK - Pine Apple.png" },
-        { name: "Pink Apple", price: 1, img: "img/PINK - Pink Apple.png" },
-        { name: "Super Berry", price: 1, img: "img/PINK - Super Berry.png" },
-        { name: "Vanilla", price: 1, img: "img/PINK - Vanilla.png" },
-        { name: "Watermelon", price: 1, img: "img/PINK - Watermelon.png" },
+        { name: "Coconut", price: 300, img: "img/PINK - Coconut.png" },
+        { name: "Pine Apple", price: 300, img: "img/PINK - Pine Apple.png" },
+        { name: "Pink Apple", price: 300, img: "img/PINK - Pink Apple.png" },
+        { name: "Super Berry", price: 300, img: "img/PINK - Super Berry.png" },
+        { name: "Vanilla", price: 300, img: "img/PINK - Vanilla.png" },
+        { name: "Watermelon", price: 300, img: "img/PINK - Watermelon.png" },
       ]
     },
 
    {
      selector: ".sams",
       products: [
-        { name: "Folgers", price: 1, img: "img/folgers.png" },
-    { name: "Folgers Instantaneo", price: 1, img: "img/folgers_instantaneo.png" },
-    { name: "Cremas para café", price: 1, img: "img/HEB - Creams.png" },
+    { name: "Folgers", price: 480, img: "img/folgers.png" },
+    { name: "Folgers Instantaneo", price: 360, img: "img/folgers_instantaneo.png" },
+    { name: "Cremas Delight", price: 160, img: "img/HEB - Creams Delight.png" },
+    { name: "Cremas Starbucks", price: 210, img: "img/HEB - Creams Starbucks.png" },
     { name: "Mantequilla", price: 1, img: "img/HEB - Mantequilla.png" },
-    { name: "Melatonina 10mg", price: 1, img: "img/SC - melatonine 10mg.png" },
-    { name: "Melatonina 5mg", price: 1, img: "img/SC - melatonine 5mg.png" },
-    { name: "Vitaminas -hombre", price: 1, img: "img/SC - vitamin men.png" },
-    { name: "Vitaminas -mujer", price: 1, img: "img/SC - vitamin women.png" },
-    { name: "Probioticos", price: 1, img: "img/SC - probioticos.png" },
+    { name: "Melatonina 10mg", price: 440, img: "img/SC - melatonine 10mg.png" },
+    { name: "Melatonina 5mg", price: 360, img: "img/SC - melatonine 5mg.png" },
+    { name: "Vitaminas -hombre", price: 360, img: "img/SC - vitamin men.png" },
+    { name: "Vitaminas -mujer", price: 360, img: "img/SC - vitamin women.png" },
+    { name: "Probioticos", price: 460, img: "img/SC - probioticos.png" },
     
     ]
   },
@@ -49,11 +50,11 @@ document.addEventListener("DOMContentLoaded", () => {
     {
       selector: ".disponible",
       products: [
-        { name: "Cafetera Hamilton Beach", price: 1, img: "img/W - coffee maker.png" },
-        { name: "Plancha Black and Decker", price: 1, img: "img/W - plancha b&d.png" },
-        { name: "Slow Cooker -H Beach", price: 1, img: "img/W - slow cooker.png" },
-        { name: "Roku - HD", price: 1, img: "img/W-roku.png" },
-        { name: "Odorizante y refills", price: 1, img: "img/SC - scent booster.png" },
+        { name: "Cafetera Hamilton Beach (12 tazas)", price: 760, img: "img/W - coffee maker.png" },
+        { name: "Plancha Black and Decker 'Even Steam'", price: 640, img: "img/W - plancha b&d.png" },
+        { name: "Slow Cooker -H Beach", price: 1100, img: "img/W - slow cooker.png" },
+        { name: "Roku - HD", price: 480, img: "img/W-roku.png" },
+        { name: "Odorizante y refills (combo para 1 año)", price: 800, img: "img/SC - scent booster.png" },
 
         
       ]
@@ -62,13 +63,13 @@ document.addEventListener("DOMContentLoaded", () => {
     {
       selector: ".other",
       products: [
-        { name: "Juego: Sequence", price: 1, img: "img/W - sequence game.png" },
-        { name: "Juego: Sorry", price: 1, img: "img/W - sorry giant.png" },
-        { name: "Hanes - 8 briefs", price: 1, img: "img/SC - men briefs.png" },
-        { name: "Old spice -5pk 85g", price: 1, img: "img/SC - Old spice.png" },
+        { name: "Juego: Sequence", price: 500, img: "img/W - sequence game.png" },
+        { name: "Juego: Sorry", price: 680, img: "img/W - sorry giant.png" },
+        { name: "Hanes - 8 briefs", price: 380, img: "img/SC - men briefs.png" },
+        { name: "Old spice -5pk 85g (grande)", price: 400, img: "img/SC - Old spice.png" },
         
         // { name: "Lociones de Victoria's Secret", price: 1, img: "img/other VS.png" },
-        { name: "Desodorante Crumbl", price: 1, img: "img/other dove crumb.png" },
+        { name: "Desodorante Crumbl", price: 280, img: "img/other dove crumb.png" },
         //{ name: "Playeras - Aeropostale", price: 1, img: "img/other aero.png" },
         //{ name: "Toallas", price: 1, img: "img/other towels.png" },
         //{ name: "Perfumitos hombre", price: 1, img: "img/other perfumitos men.png" },
@@ -87,9 +88,9 @@ document.addEventListener("DOMContentLoaded", () => {
         //{ name: "Tennis", price: 1, img: "img/other tennis.png" },
         //{ name: "Snacks", price: 1, img: "img/other kars.png" },
         //{ name: "Velas - Bath and Body Works", price: 1, img: "img/other candle.png" },
-        { name: "Gel - Bath and Body Works", price: 1, img: "img/other gel.png" },
+        { name: "Gel - Bath and Body Works (5 piezas)", price: 250, img: "img/other gel.png" },
         { name: "Jabon de manos  - Bath and Body Works", price: 1, img: "img/other jabon.png" },
-        { name: "Alcohol verde", price: 1, img: "img/W - alcohol.png" },
+        { name: "Alcohol verde", price: 80, img: "img/W - alcohol.png" },
         //{ name: "Juegos de mesa", price: 1, img: "img/other games.png" },
       ]
     }
