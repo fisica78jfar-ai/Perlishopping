@@ -88,7 +88,7 @@ document.addEventListener("DOMContentLoaded", () => {
         //{ name: "Tennis", price: 1, img: "img/other tennis.png" },
         //{ name: "Snacks", price: 1, img: "img/other kars.png" },
         //{ name: "Velas - Bath and Body Works", price: 1, img: "img/other candle.png" },
-        { name: "Gel - Bath and Body Works (5 piezas)", price: 250, img: "img/other gel.png" },
+        { name: "Gel - Bath and Body Works (5 piezas)", price: 225, img: "img/other gel.png" },
         { name: "Jabon de manos  - Bath and Body Works", price: 1, img: "img/other jabon.png" },
         { name: "Alcohol verde", price: 80, img: "img/W - alcohol.png" },
         //{ name: "Juegos de mesa", price: 1, img: "img/other games.png" },
