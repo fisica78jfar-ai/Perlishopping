@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", () => {
         { name: "Cake and Cream", price: 1, img: "img/VS - Cake and Cream.png" },
         { name: "Coconut Passion Cream", price: 1, img: "img/VS - Coconut Passion Cream.png" },
         { name: "Coconut Passion", price: 1, img: "img/VS - Coconut Passion.png" },
-        { name: "Love Spell Shimmer", price: 2170, img: "img/VS - Love Spell Shimmer.png" },
+        { name: "Love Spell Shimmer", price: 1, img: "img/VS - Love Spell Shimmer.png" },
         { name: "Midnight Bloom", price: 1, img: "img/VS - Midnight Bloom.png" },
         { name: "Pure Seduction Vacation", price: 1, img: "img/VS - Pure Seduction Vacation.png" },
         { name: "Vanilla Woods", price: 1, img: "img/VS - Vanilla Woods.png" },
